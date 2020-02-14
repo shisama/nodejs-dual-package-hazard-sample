@@ -1,0 +1,1 @@
+# nodejs-dual-package-hazard-sample
