@@ -11,10 +11,10 @@ const main = async() => {
   // overwrite
   const val = "changed!"
   m1.foo = val;
-  assert.strictEqual(m1.foo, val);
-  assert.strictEqual(m2.foo, val); // Error m2.foo is 'bar'
   console.log("m1", m1);
   console.log("m2", m2);
+  assert.strictEqual(m1.foo, val);
+  assert.strictEqual(m2.foo, val); // Error m2.foo is 'bar'
 
   // assert.strictEqual(m2.foo, "bar"); // OK
 }
