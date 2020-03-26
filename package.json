@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-dual-package-hazard-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/nodejs-dual-package-hazard-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shisama/nodejs-dual-package-hazard-sample/issues"
+  },
+  "homepage": "https://github.com/shisama/nodejs-dual-package-hazard-sample#readme"
+}
